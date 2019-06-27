@@ -3,25 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		A10C8F2B22C3F114003EB73D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C8F2A22C3F114003EB73D /* AppDelegate.swift */; };
-		A10C8F2D22C3F114003EB73D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C8F2C22C3F114003EB73D /* ViewController.swift */; };
+		A10C8F2D22C3F114003EB73D /* PhotoListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C8F2C22C3F114003EB73D /* PhotoListController.swift */; };
 		A10C8F3022C3F114003EB73D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10C8F2E22C3F114003EB73D /* Main.storyboard */; };
 		A10C8F3222C3F116003EB73D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A10C8F3122C3F116003EB73D /* Assets.xcassets */; };
 		A10C8F3522C3F116003EB73D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A10C8F3322C3F116003EB73D /* LaunchScreen.storyboard */; };
+		A10C8F4622C3FC27003EB73D /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C8F4522C3FC27003EB73D /* UIView+Additions.swift */; };
+		A10C8F4822C3FC42003EB73D /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C8F4722C3FC42003EB73D /* CustomTextField.swift */; };
+		A10C8F4D22C414B8003EB73D /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C8F4C22C414B8003EB73D /* PhotoCell.swift */; };
+		A10C8F4F22C41786003EB73D /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C8F4E22C41786003EB73D /* Photo.swift */; };
+		A10C8F5122C4187E003EB73D /* PhotoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C8F5022C4187E003EB73D /* PhotoListViewModel.swift */; };
+		A10C8F5522C4434A003EB73D /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C8F5422C4434A003EB73D /* Album.swift */; };
+		A10C8F5722C443A4003EB73D /* AlbumListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C8F5622C443A4003EB73D /* AlbumListController.swift */; };
+		A10C8F5922C443FA003EB73D /* AlbumListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C8F5822C443FA003EB73D /* AlbumListViewModel.swift */; };
+		A10C8F5B22C44A7C003EB73D /* UIApplication+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C8F5A22C44A7C003EB73D /* UIApplication+Additions.swift */; };
+		A10C8F5D22C44C61003EB73D /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C8F5C22C44C60003EB73D /* AlbumCell.swift */; };
+		A12E146E22C4FB8F0082D033 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E146C22C4FB8F0082D033 /* LoginController.swift */; };
+		A12E146F22C4FB8F0082D033 /* RegistrationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E146D22C4FB8F0082D033 /* RegistrationController.swift */; };
+		A12E147222C4FBA90082D033 /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E147022C4FBA80082D033 /* RegistrationViewModel.swift */; };
+		A12E147322C4FBA90082D033 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E147122C4FBA90082D033 /* LoginViewModel.swift */; };
+		A12E147522C4FBC00082D033 /* Bindable.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E147422C4FBBF0082D033 /* Bindable.swift */; };
+		A12E147722C4FBCF0082D033 /* String+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E147622C4FBCF0082D033 /* String+Additions.swift */; };
+		A12E147A22C4FD170082D033 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E147922C4FD170082D033 /* FacebookManager.swift */; };
+		A12E147C22C50BD90082D033 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12E147B22C50BD90082D033 /* User.swift */; };
+		A47EC99FC60B752B62528E2E /* Pods_FBPhotosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6798483646751E1DAA9DD0C6 /* Pods_FBPhotosApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4BCAAE335D7FF1F84AC45E91 /* Pods-FBPhotosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBPhotosApp.debug.xcconfig"; path = "Target Support Files/Pods-FBPhotosApp/Pods-FBPhotosApp.debug.xcconfig"; sourceTree = "<group>"; };
+		6798483646751E1DAA9DD0C6 /* Pods_FBPhotosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FBPhotosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10C8F2722C3F114003EB73D /* FBPhotosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FBPhotosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A10C8F2A22C3F114003EB73D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A10C8F2C22C3F114003EB73D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A10C8F2C22C3F114003EB73D /* PhotoListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListController.swift; sourceTree = "<group>"; };
 		A10C8F2F22C3F114003EB73D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A10C8F3122C3F116003EB73D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A10C8F3422C3F116003EB73D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A10C8F3622C3F116003EB73D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10C8F4522C3FC27003EB73D /* UIView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		A10C8F4722C3FC42003EB73D /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		A10C8F4C22C414B8003EB73D /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		A10C8F4E22C41786003EB73D /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		A10C8F5022C4187E003EB73D /* PhotoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoListViewModel.swift; sourceTree = "<group>"; };
+		A10C8F5422C4434A003EB73D /* Album.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Album.swift; sourceTree = "<group>"; };
+		A10C8F5622C443A4003EB73D /* AlbumListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListController.swift; sourceTree = "<group>"; };
+		A10C8F5822C443FA003EB73D /* AlbumListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewModel.swift; sourceTree = "<group>"; };
+		A10C8F5A22C44A7C003EB73D /* UIApplication+Additions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Additions.swift"; sourceTree = "<group>"; };
+		A10C8F5C22C44C60003EB73D /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		A12E146C22C4FB8F0082D033 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		A12E146D22C4FB8F0082D033 /* RegistrationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationController.swift; sourceTree = "<group>"; };
+		A12E147022C4FBA80082D033 /* RegistrationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		A12E147122C4FBA90082D033 /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A12E147422C4FBBF0082D033 /* Bindable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bindable.swift; sourceTree = "<group>"; };
+		A12E147622C4FBCF0082D033 /* String+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Additions.swift"; sourceTree = "<group>"; };
+		A12E147922C4FD170082D033 /* FacebookManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
+		A12E147B22C50BD90082D033 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D4385AD50019C3EC5B11E8A0 /* Pods-FBPhotosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FBPhotosApp.release.xcconfig"; path = "Target Support Files/Pods-FBPhotosApp/Pods-FBPhotosApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +69,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A47EC99FC60B752B62528E2E /* Pods_FBPhotosApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		80433EE6C544D6F24A0C794C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BCAAE335D7FF1F84AC45E91 /* Pods-FBPhotosApp.debug.xcconfig */,
+				D4385AD50019C3EC5B11E8A0 /* Pods-FBPhotosApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		A10C8F1E22C3F114003EB73D = {
 			isa = PBXGroup;
 			children = (
 				A10C8F2922C3F114003EB73D /* FBPhotosApp */,
 				A10C8F2822C3F114003EB73D /* Products */,
+				80433EE6C544D6F24A0C794C /* Pods */,
+				FC37426C9557FA4A1CDBEA51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +106,96 @@
 		A10C8F2922C3F114003EB73D /* FBPhotosApp */ = {
 			isa = PBXGroup;
 			children = (
+				A12E147822C4FCFF0082D033 /* Services */,
+				A10C8F4422C3FC1C003EB73D /* Utils */,
+				A10C8F4322C3FC18003EB73D /* Extensions */,
+				A10C8F3C22C3F1ED003EB73D /* Model */,
+				A10C8F3F22C3F20D003EB73D /* ViewModel */,
+				A10C8F3D22C3F1FE003EB73D /* View */,
+				A10C8F3E22C3F204003EB73D /* Controller */,
 				A10C8F2A22C3F114003EB73D /* AppDelegate.swift */,
-				A10C8F2C22C3F114003EB73D /* ViewController.swift */,
 				A10C8F2E22C3F114003EB73D /* Main.storyboard */,
 				A10C8F3122C3F116003EB73D /* Assets.xcassets */,
 				A10C8F3322C3F116003EB73D /* LaunchScreen.storyboard */,
 				A10C8F3622C3F116003EB73D /* Info.plist */,
 			);
 			path = FBPhotosApp;
+			sourceTree = "<group>";
+		};
+		A10C8F3C22C3F1ED003EB73D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A12E147B22C50BD90082D033 /* User.swift */,
+				A10C8F4E22C41786003EB73D /* Photo.swift */,
+				A10C8F5422C4434A003EB73D /* Album.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A10C8F3D22C3F1FE003EB73D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A10C8F4722C3FC42003EB73D /* CustomTextField.swift */,
+				A10C8F4C22C414B8003EB73D /* PhotoCell.swift */,
+				A10C8F5C22C44C60003EB73D /* AlbumCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A10C8F3E22C3F204003EB73D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A10C8F2C22C3F114003EB73D /* PhotoListController.swift */,
+				A10C8F5622C443A4003EB73D /* AlbumListController.swift */,
+				A12E146C22C4FB8F0082D033 /* LoginController.swift */,
+				A12E146D22C4FB8F0082D033 /* RegistrationController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A10C8F3F22C3F20D003EB73D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A10C8F5022C4187E003EB73D /* PhotoListViewModel.swift */,
+				A10C8F5822C443FA003EB73D /* AlbumListViewModel.swift */,
+				A12E147122C4FBA90082D033 /* LoginViewModel.swift */,
+				A12E147022C4FBA80082D033 /* RegistrationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A10C8F4322C3FC18003EB73D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A10C8F4522C3FC27003EB73D /* UIView+Additions.swift */,
+				A10C8F5A22C44A7C003EB73D /* UIApplication+Additions.swift */,
+				A12E147622C4FBCF0082D033 /* String+Additions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A10C8F4422C3FC1C003EB73D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A12E147422C4FBBF0082D033 /* Bindable.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A12E147822C4FCFF0082D033 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A12E147922C4FD170082D033 /* FacebookManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		FC37426C9557FA4A1CDBEA51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6798483646751E1DAA9DD0C6 /* Pods_FBPhotosApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A10C8F3922C3F116003EB73D /* Build configuration list for PBXNativeTarget "FBPhotosApp" */;
 			buildPhases = (
+				73B3AA22706F1313643B887D /* [CP] Check Pods Manifest.lock */,
 				A10C8F2322C3F114003EB73D /* Sources */,
 				A10C8F2422C3F114003EB73D /* Frameworks */,
 				A10C8F2522C3F114003EB73D /* Resources */,
+				A9BC0185F345B948DD8AD11F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +266,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		73B3AA22706F1313643B887D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FBPhotosApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A9BC0185F345B948DD8AD11F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBPhotosApp/Pods-FBPhotosApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FBPhotosApp/Pods-FBPhotosApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FBPhotosApp/Pods-FBPhotosApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A10C8F2322C3F114003EB73D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A10C8F2D22C3F114003EB73D /* ViewController.swift in Sources */,
+				A12E146F22C4FB8F0082D033 /* RegistrationController.swift in Sources */,
+				A10C8F4F22C41786003EB73D /* Photo.swift in Sources */,
+				A10C8F4D22C414B8003EB73D /* PhotoCell.swift in Sources */,
+				A10C8F5722C443A4003EB73D /* AlbumListController.swift in Sources */,
+				A12E147322C4FBA90082D033 /* LoginViewModel.swift in Sources */,
+				A12E146E22C4FB8F0082D033 /* LoginController.swift in Sources */,
+				A12E147522C4FBC00082D033 /* Bindable.swift in Sources */,
+				A10C8F5D22C44C61003EB73D /* AlbumCell.swift in Sources */,
+				A12E147C22C50BD90082D033 /* User.swift in Sources */,
+				A10C8F4622C3FC27003EB73D /* UIView+Additions.swift in Sources */,
+				A10C8F2D22C3F114003EB73D /* PhotoListController.swift in Sources */,
+				A10C8F5122C4187E003EB73D /* PhotoListViewModel.swift in Sources */,
 				A10C8F2B22C3F114003EB73D /* AppDelegate.swift in Sources */,
+				A12E147222C4FBA90082D033 /* RegistrationViewModel.swift in Sources */,
+				A10C8F5922C443FA003EB73D /* AlbumListViewModel.swift in Sources */,
+				A12E147A22C4FD170082D033 /* FacebookManager.swift in Sources */,
+				A12E147722C4FBCF0082D033 /* String+Additions.swift in Sources */,
+				A10C8F4822C3FC42003EB73D /* CustomTextField.swift in Sources */,
+				A10C8F5B22C44A7C003EB73D /* UIApplication+Additions.swift in Sources */,
+				A10C8F5522C4434A003EB73D /* Album.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +476,7 @@
 		};
 		A10C8F3A22C3F116003EB73D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BCAAE335D7FF1F84AC45E91 /* Pods-FBPhotosApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +495,7 @@
 		};
 		A10C8F3B22C3F116003EB73D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4385AD50019C3EC5B11E8A0 /* Pods-FBPhotosApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
